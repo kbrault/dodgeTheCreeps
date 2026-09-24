@@ -1,0 +1,42 @@
+# Godot 4+ & Godot 3 Specific Ignores
+.godot/
+.import/
+*.translation
+
+# Imported mesh / texture cache artifacts
+*.import
+
+# Exported build output folders
+/build/
+/bin/
+/export/
+*.apk
+*.aab
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+*.pck
+*.zip
+
+# C# / Mono projects
+.mono/
+.vs/
+.idea/
+.vscode/
+*.csproj.old
+*.sln.old
+bin/
+obj/
+
+# System / OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
+
+# Godot editor state (local layout / opened script tabs)
+editor_settings-3.tres
+editor_settings-4.tres
